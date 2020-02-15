@@ -1,9 +1,9 @@
 {
-  "name": "yaoxfly-flexible",
-  "version": "0.1.1",
-  "description": "兼容pc的flexible库,让pc愉快使用rem",
+  "name": "yaoxfly-auto-components",
+  "version": "0.1.0",
+  "description": "通过命令自动生成组件，包括页面组件和外部引用的组件。",
   "private": false,
-  "main": "lib/flexible.js",
+  "main": "lib",
   "files": [
     "lib"
   ],
@@ -11,7 +11,7 @@
   "author": "yaoxfly",
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/yaoxfly/yaoxfly-flexible.git"
+    "url": "https://gitee.com/yaoxfly/yaoxfly-auto-components.git"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
