@@ -16,8 +16,8 @@ npm i  yaoxfly-auto-components -save-dev
 
 ```js
   "scripts": {
-      "create:comp": "node ./node_modules/yaoxfly-auto-components/createComponent",
-      "create:view": "node ./node_modules/ yaoxfly-auto-components/createView",
+      "create:comp": "node ./node_modules/yaoxfly-auto-components/lib/createComponent",
+      "create:view": "node ./node_modules/ yaoxfly-auto-components/lib/createView",
    },
 ```
 
