@@ -12,7 +12,7 @@ npm i  yaoxfly-auto-components -save-dev
 
 #### 使用说明
 
-- 在 package.json 文件中 添加
+在 package.json 文件中 添加
 
 ```js
 "scripts": {
@@ -21,14 +21,20 @@ npm i  yaoxfly-auto-components -save-dev
 },
 ```
 
-- 在 components 下创建个 global 目录放置全局组件
+- 在 src/components 下创建个 global 目录放置全局组件
 
 - 命令
 
 ```js
-//生成全局组件，以及其他要引入的组件--文件路径src/components
+//生成全局组件，以及其他要引入的组件--生成的文件的路径src/components下
 npm run create:comp
 
-//生成页面组件
+//生成页面组件--生成文件的路径在src/views下
 npm run create:view
+```
+
+- 安装一下 chalk，这个插件能让我们的控制台输出语句有各种颜色区分
+
+```js
+npm install chalk --save-dev
 ```
