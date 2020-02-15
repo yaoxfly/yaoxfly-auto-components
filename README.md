@@ -15,10 +15,10 @@ npm i  yaoxfly-auto-components -save-dev
 - 在 package.json 文件中 添加
 
 ```js
-  "scripts": {
-      "create:comp": "node ./node_modules/yaoxfly-auto-components/lib/createComponent",
-      "create:view": "node ./node_modules/ yaoxfly-auto-components/lib/createView",
-   },
+"scripts": {
+    "create:comp": "node ./node_modules/yaoxfly-auto-components/lib/createComponent",
+    "create:view": "node ./node_modules/yaoxfly-auto-components/lib/createView",
+},
 ```
 
 - 在 components 下创建个 global 目录放置全局组件
