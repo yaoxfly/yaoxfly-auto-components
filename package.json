@@ -1,6 +1,6 @@
 {
   "name": "yaoxfly-auto-components",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "通过命令自动生成组件，包括页面组件和外部引用的组件。",
   "private": false,
   "main": "lib",
