@@ -33,8 +33,8 @@ npm run create:comp
 npm run create:view
 ```
 
-- 安装一下 chalk，这个插件能让我们的控制台输出语句有各种颜色区分
+- 安装 chalk，这插件能让控制台输出语句有各种颜色区分
 
 ```js
-npm install chalk --save-dev
+npm i chalk --save-dev
 ```
