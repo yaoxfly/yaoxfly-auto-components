@@ -38,3 +38,13 @@ npm run create:view
 ```js
 npm i chalk --save-dev
 ```
+
+- 配置文件
+
+```js
+//在根目录添加名为auto-components.config.js的配置文件
+module.exports = {
+  //修改模板中的css预编译器类型 scss/less 默认是scss
+  cssPrecompiler: "less",
+};
+```
